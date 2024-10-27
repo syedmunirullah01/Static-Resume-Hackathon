@@ -21,7 +21,7 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #361d67;
+    background-image: linear-gradient(to right, #6a49ac 0%, #ffffff 100%);
 }
 .right-section{
     grid-column: span 5;
@@ -46,7 +46,7 @@ body{
 .profile img{
     width: 100%;
     border-radius: 50%;
-    border: 8px solid #002333;
+    border: 8px solid #360793;
     
 }
 
@@ -61,7 +61,7 @@ body{
 
 .career{
     font-size: 1.2rem;
-    color: #8750f7;
+    color: #360793;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -84,12 +84,12 @@ body{
     padding: .4rem 0;
     display: flex;
     align-items: center;
-    color: #718096;
+    color: #4c5767;
 }
 .contact-info ul li i{
     padding-right: 1rem;
     font-size: 1.2rem;
-    color: #8750f7;
+    color: #360793;
 }
 
 .skills-section ul{
@@ -107,12 +107,13 @@ body{
     background-color: #2f81ed5b;
     position: relative;
     border-radius: 12px;
+    margin-left: 10px;
 }
 .progress{
     height: 100%;
     position: absolute;
     left: 0;
-    background-color: #8750f7;
+    background-color: #360793;
     border-radius: 12px;
 }
 .js-progress{
@@ -171,7 +172,7 @@ body{
 .right-title{
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #8750f7;
+    color: #360793;
     margin-bottom: 1.2rem;
     position: relative;
 }
@@ -212,7 +213,7 @@ body{
 .tl-title-2{
     letter-spacing: 1px;
     font-size: 1.3rem;
-    color: #8750f7;
+    color: #360793;
     text-transform: uppercase;
 }
 
